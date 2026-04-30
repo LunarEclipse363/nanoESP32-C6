@@ -3,7 +3,9 @@ nanoESP32-C6
 * [nanoESP32-C6 Introduce](#nanoESP32-C6-Introduce) 
 * [Chip Diagram](#chip-diagram)
 * [Demo](#Demo)
+* [Kicad Symbols](#KiCad-Symbols)
 * [Product Link](#Product-Link)
+* [Details](#Details)
 * [Reference](#Reference)
 
 
@@ -25,8 +27,15 @@ $idf.py set-target esp32c6
 $idf.py -p /dev/ttyACM0 flash monitor
 
 ```
+
+# KiCad Symbols
+See the [kicad](kicad/) directory
+
 # Product Link
 [nanoESP32-C6 Board](https://www.aliexpress.us/item/3256805322371819.html?spm=a2g0s.12269583.0.0.41d93b9eV4OIj5&gatewayAdapt=glo2usa&_randl_shipto=US)
+
+# Details
+![product size 5.4x2.8cm](doc/aliexpress-description.webp)
 
 # Reference
 ### esp-idf
